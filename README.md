@@ -10,14 +10,14 @@ This project serves as a practical demonstration of efficiently uploading files 
     ```bash
     ./startFileReplicator.sh
     ```
-  - This script duplicates files from the `originalFiles` folder, creating multiple copies with distinct names but identical extensions. These copies are then saved in a folder named `Files`.
+  - This script duplicates files from the `originalFiles` folder, creating multiple copies with distinct names but identical extensions. These copies are then saved in a folder named `files`.
 
 - **startSFTPFileUpload.sh**:
   - Execute using the following command:
     ```bash
     ./startSFTPFileUpload.sh
     ```
-  - After triggering the command above, the script uploads files from the `Files` folder to the specified file directory `SFTP_DESTINATION_FOLDER` on the SFTP server, as outlined in the `.env` file.
+  - After triggering the command above, the script uploads files from the `files` folder to the specified file directory `SFTP_DESTINATION_FOLDER` on the SFTP server, as outlined in the `.env` file.
 
 ## Usage
 
